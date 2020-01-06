@@ -36,5 +36,3 @@ dependencies:
   - xz=5.2.4=h2fa13f4_1001
   - zlib=1.2.11=h2fa13f4_1006
   - zstd=1.4.4=hd8a0e53_1
-prefix: C:\Users\DAA426\AppData\Local\Continuum\miniconda3\envs\classifier
-
