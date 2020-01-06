@@ -1,1 +1,6 @@
-data/
+# generic ignore
+.vscode
+
+# classifier related ignore
+classifier/data/
+classifier/saved_experiments/
