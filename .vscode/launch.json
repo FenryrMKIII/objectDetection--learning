@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args" :  [
+                //"-f",  "C:\\Users\\DAA426\\myWork\\objectDetection-learning\\classifier\\data\\raw\\exploiting",
+                "-cfg", "C:\\Users\\DAA426\\myWork\\objectDetection-learning\\classifier\\experiments\\development\\cfg\\LeNet5.cfg"
+            ]
+        }
+    ]
+}

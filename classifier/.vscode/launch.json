@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // training
+            "args": ["-cfg", 
+                      "C:\\Users\\DAA426\\myWork\\objectDetection-learning\\classifier\\experiments\\development\\cfg\\LeNet5.cfg",
+                      "-s", "C:\\Users\\DAA426\\myWork\\objectDetection-learning\\classifier\\saved_experiments\\development\\mnist",
+                       "-b", "4", "-e", "3"],
+
+            // testing
+            //"args": ["-cfg", 
+            //    "C:\\Users\\DAA426\\myWork\\objectDetection-learning\\classifier\\experiments\\development\\cfg\\LeNet5.cfg",
+            //    "-w", "C:\\Users\\DAA426\\myWork\\objectDetection-learning\\classifier\\saved_experiments\\development\\mnist\\mnist_LeNet5_final.pth",
+            //     ],    
+        }
+    ]
+}
